@@ -1,23 +1,30 @@
 body {
   text-decoration: none;
-  font-family: "Roboto", "Raleway";
+  font-family: "Roboto";
 }
 a {
   text-decoration: none;
 }
+.main-button {
+  background: #4d5ae5;
+  color: #ffffff;
+}
 
+/* Фоотер */
 .footer {
   background-color: #2e2f42;
 }
+.footer-text {
+  color: #f4f4fd;
+}
+/* Лого */
 .logo {
   color: #4d5ae5;
 }
 .logo-footer {
   color: #f4f4fd;
 }
-.footer-text {
-  color: #f4f4fd;
-}
+
 .top-header > nav {
   font-weight: 500;
   font-size: 16px;
@@ -42,18 +49,22 @@ a {
   --color-link: #4d5ae5;
   --color-btn: #404bbf;
 }
-.button {
-  background: #4d5ae5;
-}
+
 .button:hover,
 :focus {
   background-color: var(--color-btn);
+  color: #f4f4fd;
 }
+
+/* Ссылки  */
 .link {
   color: #434455;
 }
 .link:hover {
   color: var(--color-link);
+}
+.link:active {
+  color: #404bbf;
 }
 
 .our-work {
@@ -62,7 +73,9 @@ a {
 .work-list {
   list-style: none;
 }
-
+.team {
+  background-color: #f4f4fd;
+}
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -75,6 +88,7 @@ a {
 
   color: #ffffff;
 }
+
 .hero {
   width: 1440px;
   height: 600px;
@@ -87,11 +101,15 @@ a {
 }
 .button {
   position: absolute;
+  cursor: pointer;
 
-  /* IRIS */
+  border: none;
 
-  background: #4d5ae5;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+}
+.main-list {
+  list-style: none;
 }
