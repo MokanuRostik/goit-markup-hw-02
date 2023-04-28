@@ -1,0 +1,97 @@
+body {
+  text-decoration: none;
+  font-family: "Roboto", "Raleway";
+}
+a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+.logo {
+  color: #4d5ae5;
+}
+.logo-footer {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+.top-header > nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+
+.nav-list,
+.header-contact,
+.advan-list,
+.work-list,
+.team-list {
+  list-style: none;
+}
+:root {
+  --color-link: #4d5ae5;
+  --color-btn: #404bbf;
+}
+.button {
+  background: #4d5ae5;
+}
+.button:hover,
+:focus {
+  background-color: var(--color-btn);
+}
+.link {
+  color: #434455;
+}
+.link:hover {
+  color: var(--color-link);
+}
+
+.our-work {
+  list-style: none;
+}
+.work-list {
+  list-style: none;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  letter-spacing: 0.02em;
+
+  /* WHITE */
+
+  color: #ffffff;
+}
+.hero {
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+
+  /* NAVY BLUE */
+
+  background: #2e2f42;
+}
+.button {
+  position: absolute;
+
+  /* IRIS */
+
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
