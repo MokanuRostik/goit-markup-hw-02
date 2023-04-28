@@ -38,9 +38,6 @@ a {
   color: #2e2f42;
 }
 
-ul {
-  list-style: none;
-}
 :root {
   --color-link: #4d5ae5;
   --color-btn: #404bbf;
@@ -63,10 +60,7 @@ ul {
   color: #404bbf;
 }
 
-.our-work {
-  list-style: none;
-}
-.work-list {
+.list {
   list-style: none;
 }
 .team {
