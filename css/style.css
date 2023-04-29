@@ -7,18 +7,23 @@ body {
 a {
   text-decoration: none;
 }
+:root {
+  --color-hh: #4d5ae5;
+}
 .logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   /* IRIS */
 
   color: #4d5ae5;
+}
+.link {
+  text-decoration: none;
 }
 .logo-style {
   color: #2e2f42;
@@ -73,7 +78,7 @@ a {
   color: #ffffff;
 }
 .main-button {
-  background-color: #4d5ae5;
+  background-color: var(--color-hh);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
