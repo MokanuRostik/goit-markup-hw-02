@@ -24,12 +24,16 @@ a {
 }
 .link {
   text-decoration: none;
+  color: #2e2f42;
 }
 .logo-style {
   color: #2e2f42;
 }
 .list {
   list-style: none;
+}
+.list-team {
+  background-color: #ffffff;
 }
 .list-nav {
   font-family: "Roboto";
@@ -44,7 +48,22 @@ a {
 
   color: #2e2f42;
 }
-
+.list-nav:hover,
+:focus {
+  color: #404bbf;
+}
+.link:hover,
+:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+  color: #434455;
+}
+.address:hover,
+:focus {
+  color: #404bbf;
+}
 .list-address {
   font-family: "Roboto";
   font-style: normal;
@@ -67,7 +86,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   /* or 107% */
 
   text-align: center;
@@ -79,19 +98,19 @@ a {
 }
 .main-button {
   background-color: var(--color-hh);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
 
   letter-spacing: 0.04em;
 
-  /* WHITE */
-
   color: #ffffff;
   cursor: pointer;
+}
+.main-button:focus {
+  background-color: #404bbf;
 }
 .list-title {
   font-family: "Roboto";
@@ -126,10 +145,11 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   /* identical to box height, or 111% */
 
   text-align: center;
+
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
@@ -145,7 +165,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -177,6 +197,7 @@ a {
   color: #f4f4fd;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   background-color: #f4f4fd;
   font-family: "Roboto";
   font-style: normal;
@@ -193,7 +214,11 @@ a {
   border: none;
   cursor: pointer;
 }
-.button:hover {
+.button:hover,
+:focus {
   background-color: #404bbf;
   color: #ffffff;
+}
+.button:focus {
+  background-color: #404bbf;
 }
