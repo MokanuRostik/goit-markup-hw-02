@@ -15,9 +15,7 @@ a {
   text-decoration: none;
   color: #2e2f42;
 }
-.link-address {
-  color: #434455;
-}
+
 .logo-style {
   color: #2e2f42;
 }
@@ -242,4 +240,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.link-address {
+  color: #434455;
 }
