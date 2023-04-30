@@ -59,23 +59,7 @@ a {
 :focus {
   color: #404bbf;
 }
-.link-address {
-  color: #434455;
-}
-.list-address {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
 
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: #434455;
-}
 .hero {
   background-color: #2e2f42;
 }
@@ -240,6 +224,17 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.list-address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 .link-address {
   color: #434455;
