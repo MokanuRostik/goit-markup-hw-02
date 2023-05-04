@@ -1,17 +1,62 @@
+/* ??????????????????????????????? */
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 body {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
+.top-header {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+}
 a {
   text-decoration: none;
 }
+.header-navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 76px;
+}
+
 :root {
   --color-hh: #4d5ae5;
 }
 
 .link {
+  margin-top: 48px;
   text-decoration: none;
   color: #2e2f42;
 }
@@ -23,11 +68,19 @@ a {
   list-style: none;
   color: #434455;
 }
+.list-advantages {
+  padding-top: 137px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-.list-team {
-  background-color: #ffffff;
+  gap: 8px;
 }
+
 .list-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -52,6 +105,10 @@ a {
   color: #404bbf;
 }
 .address {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: 40px;
   font-style: normal;
   color: #434455;
 }
@@ -62,13 +119,15 @@ a {
 
 .hero {
   background-color: #2e2f42;
+  min-height: 600px;
 }
 .main-title {
+  padding-top: 188px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 60px;
   /* or 107% */
 
   text-align: center;
@@ -78,7 +137,10 @@ a {
 
   color: #ffffff;
 }
+
 .main-button {
+  width: 169px;
+  height: 56px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -90,16 +152,21 @@ a {
   cursor: pointer;
 }
 .main-button:focus,
-:hover {
+.main-button :hover {
   background-color: #404bbf;
 }
-.team-li {
-  background-color: #ffffff;
+.list-team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 120px;
+  margin-top: 72px;
 }
 .list-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
+
   font-size: 20px;
   line-height: 1.2;
   /* identical to box height, or 120% */
@@ -127,6 +194,7 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  padding-top: 120px;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -138,15 +206,48 @@ a {
 
   color: #2e2f42;
 }
+.list-work {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
 .team {
   background-color: #f4f4fd;
+  min-height: 732px;
 }
+.team-li {
+  margin-right: 24px;
+}
+.list-text {
+  margin-top: 8px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+.wrapper-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding-top: 32px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
 .our-team {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  padding-top: 120px;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -159,6 +260,7 @@ a {
 }
 .footer {
   background-color: #2e2f42;
+  min-height: 312px;
 }
 .logo-styles {
   color: #f4f4fd;
@@ -169,8 +271,10 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  width: 264px;
+  height: 72px;
   /* or 150% */
-
+  margin-top: 16px;
   letter-spacing: 0.02em;
 
   /* CLOUD */
@@ -214,6 +318,7 @@ a {
   color: #4d5ae5;
 }
 .logo-footer {
+  margin-top: 100px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -224,7 +329,11 @@ a {
 }
 
 .list-address {
-  font-family: "Roboto";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 40px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -235,7 +344,24 @@ a {
 }
 .link-address {
   color: #434455;
+  margin-right: 40px;
 }
 .link-adr {
   color: #434455;
+}
+.list-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button-list {
+  margin-right: 24px;
+}
+.list-partfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 72px;
+  margin-bottom: 120px;
 }
