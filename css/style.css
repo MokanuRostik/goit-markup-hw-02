@@ -63,7 +63,9 @@ a {
   color: #2e2f42;
   margin-top: 48px;
 }
-
+.link-header {
+  padding: 24px 0;
+}
 .logo-style {
   color: #2e2f42;
 }
@@ -75,13 +77,12 @@ a {
   padding: 24px 0;
 }
 .list-advantages {
-  gap: 24px;
   padding-top: 137px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
-  gap: 8px;
+  gap: 24px;
 }
 .advantages {
   padding: 120px 0;
@@ -407,6 +408,7 @@ a {
 }
 .button-list {
   margin-right: 24px;
+  border: 1px solid #e7e9fc;
 }
 .list-partfolio {
   display: flex;
